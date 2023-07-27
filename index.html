@@ -147,18 +147,14 @@
       var quantity = document.getElementById('quantity').value;
       var comments = document.getElementById('comments').value;
       
-      // Here, you can perform additional validation and processing before submitting the order.
-      
-      // For demonstration purposes, let's log the values to the console:
+    
       console.log('Name:', name);
       console.log('Email:', email);
       console.log('Component:', component);
       console.log('Quantity:', quantity);
       console.log('Comments:', comments);
       
-      // You can also send the form data to a server using AJAX or any other method.
-      
-      // Update the popup message with the entered data
+     
       document.getElementById('popupName').textContent = name;
       document.getElementById('popupEmail').textContent = email;
       document.getElementById('popupComponent').textContent = component;
@@ -172,7 +168,7 @@
       
       document.getElementById('orderForm').reset();
       
-      // Hide the popup message after 3 seconds
+      // Hide the popup message after 7 seconds
       setTimeout(function() {
         popup.style.display = 'none';
       }, 7000);
